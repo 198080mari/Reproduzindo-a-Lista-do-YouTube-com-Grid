@@ -1,0 +1,11 @@
+@import url("./global.css");
+@import url('./reset.css');
+
+main {
+   display: inline-flex; 
+}
+div {
+   display: inline-grid;
+   grid: repeat(3, 1fr) / repeat(4, 1fr);
+   place-content: start end;  /*align justify*/
+}
